@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tesr margin  </title>
+        </head>
+<style>
+        #div1{
+            border : 5px solid red;
+            background-color:green; 
+            margin :50px 0 0 20px; 
+            padding:20px;
+            float:left;
+            width: 25%;
+        }
+        .rowbox{
+            clear: left;
+        }
+        #div2{
+            border : 5px solid red;
+            background-color:green; 
+            margin :50px 0 0 20px; 
+            padding:20px;
+            float:left;
+            width: 25%;
+        }
+        p{
+background-color: pink;
+padding:10px;
+        }
+    </style>
+    <body>
+        <h1>Test Conflict</h1>
+       <div id="div1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi autem consequatur sed. Modi praesentium doloremque minima ab adipisci blanditiis itaque sunt distinctio ullam esse quo, quia dolores soluta? </p>
+        </div>
+        <div id="div1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi autem consequatur sed. </p>
+        </div>
+        <div id="div1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi autem consequatur sed. Modi praesentium doloremque minima ab adipisci blanditiis itaque sunt distinctio ullam esse quo, quia dolores soluta? </p>
+            </div>
+            <div class="rowbox"><div id="div2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi autem consequatur sed. Modi praesentium doloremque minima ab adipisci blanditiis itaque sunt distinctio ullam esse quo, quia dolores soluta? </p>
+                </div>
+                <div id="div2" >
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi autem consequatur sed. Modi praesentium doloremque minima ab adipisci blanditiis itaque sunt distinctio ullam esse quo, quia dolores soluta? </p>
+                    </div>
+                    </div>
+                    
+    </body>
+        </html>

@@ -1,0 +1,32 @@
+p{
+    font-weight: "bold";
+}
+
+
+.red{
+    font-size:15px;
+    color:red;
+}
+@font-face{
+    font-family: Cario;
+    src:url(../font/Cario-BOLD);
+}
+
+          body{
+            font-family: 'Do Hyeon', sans-serif;
+
+          }
+  #div1
+  {
+      font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+      background-color: royalblue;
+  }
+  
+  h3{
+      color: blue;
+  }
+
+  ul li{
+      color:black;
+  }
+ 
